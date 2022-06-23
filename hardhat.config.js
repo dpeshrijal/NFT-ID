@@ -20,7 +20,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 module.exports = {
   solidity: "0.8.1",
   networks: {
-    rinkeby: {
+    mumbai: {
       url: process.env.URL,
       accounts: [process.env.PRIVATE_KEY],
     },
